@@ -10,7 +10,7 @@ if n == 1:
     nc = n + 1
     mp = m - 1
     mc = m
-else: n == d[0]
+else: n == d[2]
 
 
 print(f"{str(mp).rjust(2, '0')}.{str(np).rjust(2, '0')} {str(mc).rjust(2, '0')}.{str(nc).rjust(2, '0')}")
